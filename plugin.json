@@ -1,6 +1,5 @@
     {
         "name"                  :"BAEBTheme",
-        "namespace"             :"BAEBTheme",
         "description"           :"Basic theme plugin",
         "namespace"             :"Theme",
         "author"                :"jmr",
