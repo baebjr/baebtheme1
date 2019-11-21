@@ -1,6 +1,6 @@
     <?php
      
-    namespace Theme\Providers;
+    namespace BAEBTheme\Providers;
      
     use Plenty\Plugin\ServiceProvider;
      

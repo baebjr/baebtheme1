@@ -1,16 +1,17 @@
     {
-        "name"                  :"BAEBTheme1",
+        "name"                  :"BAEBTheme",
+        "namespace"             :"BAEBTheme",
         "description"           :"Basic theme plugin",
         "namespace"             :"Theme",
         "author"                :"jmr",
         "keywords"              : ["theme", "Ceres", "template"],
         "type"                  :"theme",
         "require"               : [],
-        "serviceProvider"       :"Theme\\Providers\\ThemeServiceProvider",
+        "serviceProvider"       :"BAEBTheme\\Providers\\ThemeServiceProvider",
         "dataProviders"         :
         [
             {
-                "key"           :"Theme\\Containers\\ThemeContainer",
+                "key"           :"BAEBTheme\\Containers\\ThemeContainer",
                 "name"          :"BAEB Theme 1",
                 "description"   :"Somebody set up us the bomb"
             }

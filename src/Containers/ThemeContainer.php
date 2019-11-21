@@ -1,6 +1,6 @@
     <?php
      
-    namespace Theme\Containers;
+    namespace BAEBTheme\Containers;
      
     use Plenty\Plugin\Templates\Twig;
      
@@ -8,6 +8,6 @@
     {
         public function call(Twig $twig):string
         {
-            return $twig->render('Theme::content.Theme');
+            return $twig->render('BAEBTheme::content.Theme');
         }
     }
