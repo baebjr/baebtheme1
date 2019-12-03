@@ -1,5 +1,5 @@
 <?php
-    namespace ThemeName\Contexts;
+    namespace Theme\Contexts;
 
     use IO\Helper\ContextInterface;
     use Ceres\Contexts\SingleItemContext;
@@ -7,7 +7,7 @@
     use IO\Services\ItemSearch\Services\ItemSearchService;
     use IO\Services\ItemSearch\SearchPresets\CrossSellingItems;
 
-    class ThemeNameSingleItemContext extends SingleItemContext implements ContextInterface
+    class ThemeSingleItemContext extends SingleItemContext implements ContextInterface
     {
     	public $accessory;
 
@@ -19,7 +19,7 @@
             			"relation" => "ReplacementPart"
            		);
          		$searchfactory = CrossSellingItems::getSearchFactory( $options );
-         		$searchfactory->setPage(1, 4); // Begrenze auf 4 Artikel
+         		$searchfactory->setPage(1, 8); // Begrenze auf 8 Artikel
           		$result = pluginApp(ItemSearchService::class)->getResult($searchfactory);
           		$this->accessory = $result['documents'];
     	}
