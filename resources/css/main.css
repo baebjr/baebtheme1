@@ -1,4 +1,7 @@
-/* Change background colour */
-body {
-    background-color: #808080;
+
+body,
+.navbar,
+.footer {
+    background-color: #fff;
 }
+
